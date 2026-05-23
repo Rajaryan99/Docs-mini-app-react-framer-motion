@@ -1,13 +1,17 @@
 
 import './App.css'
+import Background from './components/Background'
 
 function App() {
 
   return (
     <>
-      <div className='bg-red-300'>
-        <h1>Hello  world</h1>
-    </div>
+      <div className=' relative bg-zinc-800 w-full h-screen'>
+    <Background/>
+       
+      </div>
+      
+      
     </>
   )
 }
